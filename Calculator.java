@@ -15,6 +15,8 @@ public class Calculator {
 			{
 				case '1': result=a+b;
 					  break;
+				case 3: result=a*b;
+					  break;
 				default : System.out.println("Invalid choice\n");
 			}
 			System.out.println("-----------------");

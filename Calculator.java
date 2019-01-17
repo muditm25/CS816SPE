@@ -15,8 +15,11 @@ public class Calculator {
 			{
 				case '1': result=a+b;
 					  break;
+				case '2' : result=a-b;
+					  break;
 				default : System.out.println("Invalid choice\n");
 			}
+			System.out.println("Result:"+result);
 			System.out.println("-----------------");
 		}while(choice!='5');
 	}
